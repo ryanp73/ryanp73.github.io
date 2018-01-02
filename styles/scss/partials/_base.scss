@@ -1,0 +1,82 @@
+html, body, div, section {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: $body-bg-color;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 5% 0;
+
+	font-family: "Ubuntu";
+
+	&:nth-child(2n+1) {
+		color: $light-text-color;
+		margin-top: 0;
+		background: $primary-bg;
+	}
+
+	&:nth-child(2n) {
+		color: $primary-color;
+		height: 100%;
+		padding-bottom: 8vh;
+	}
+
+	&#first {		
+		height: 100vh;
+	}
+
+	& p {
+		margin-bottom: 0;
+		width: 70vw;
+	}
+
+	& ul {
+		align-self: flex-start;
+		padding: 0 20%;
+	}
+}
+
+h1 {
+	margin: 0;
+	font-size: 9vh;
+}
+
+h2 {
+	text-align: center;
+	font-size: 8vh;
+}
+
+h3 {
+	font-size: 6vh;
+
+}
+
+h4 {
+	font-size: 5vh;
+}
+
+p {
+	font-size: 5vh;
+}
+
+li {
+	font-size: 3.5vh;
+	list-style-type: circle;
+}
+
+a {
+	text-decoration: none;
+	color: darken($primary-color, 25);
+}
+
+a:hover {
+	text-decoration: underline;
+}
