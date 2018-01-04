@@ -460,20 +460,16 @@ body {
 
 section {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
@@ -506,13 +502,13 @@ section p {
 }
 
 section ul {
-  -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
   padding: 0 20%;
 }
 
 h1 {
+  text-align: center;
   margin: 0;
   font-size: 9vh;
 }
@@ -523,10 +519,12 @@ h2 {
 }
 
 h3 {
+  text-align: center;
   font-size: 6vh;
 }
 
 h4 {
+  text-align: center;
   font-size: 5vh;
 }
 
