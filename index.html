@@ -1,90 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">	
-	<title>Ryan Pope</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
-	<link rel="stylesheet" href="styles/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Ryan Pope</title>
 </head>
 <body>
-	<section id="first">
-		<h1>Ryan Pope</h1><br>
-		<h4>CS Major KU '21</h4>
-	</section>
-	<section id="about">
-		<h2>About Me</h2>
-		<ul>
-			<li>Computer Science Major at the University of Kansas</li>
-			<li>Pursuing Math Minor</li>
-			<li>Expected Graduation: May 2021</li>
-			<li>Looking for Software Developer Internships</li>
-		</ul>
-	</section>
-	<section>
-		<h2>Programming Experience</h2>
-		<p>Garmin IQ Program (2016)</p>
-		<ul>
-			<li>Programmed applications for Garmin Smartwatch Line</li>
-			<li>Developed a directions app as a personal project</li>
-			<li>Presented to a board of engineers and was awarded 2nd place</li>
-		</ul>
-		<p>Programmer for FIRST Robotics Team 2410 (2013-17)</p>
-		<ul>
-			<li>Maintained Team Website <a href="http://mmr2410.com">mmr2410.com</a></li>
-			<li>Developed Team Scouting Website <a href="https://github.com/CAPS-Robotics/Eagle">Github</a></li>
-			<li>Programmed Competition Robot in 2017 <a href="https://github.com/CAPS-Robotics/2017-Steamworks">Github</a></li>
-		</ul>
-	</section>
-	<section>
-		<h2>Other Work Experience</h2>
-		<p>US Toy (Summer 2017, Winter Break 2017-18)</p>
-		<ul>
-			<li>Part-time Cashier</li>
-			<li>Worked in a team environment to provide excellent customer service</li>
-		</ul>
-		<p>University of Kansas Basketball (2017-18)</p>
-		<ul>
-			<li>Student Video Intern</li>
-			<li>Edited college basketball game film using Sportcode to assist KU basketball team</li>
-		</ul>
-	</section>
-	<section>
-		<h2>Involvement at KU</h2>
-		<ul>
-			<li>Association for Computing Machinery (ACM): 2017-18</li>
-			<li>KU Programming Club: 2017-18</li>
-			<li>Information Security Club (Jayhackers): 2017-18</li>
-		</ul>
-	</section>
-	<section>
-		<h2>Skills</h2>
-		<h3>Computer Languages</h3>
-		<p>2 or more years experience:</p>
-		<ul>
-			<li>C++</li>
-			<li>Python</li>
-			<li>PHP</li>
-			<li>HTML/CSS/JS/Sass</li>
-			<li>SQL</li>
-		</ul>
-		<p>Some experience:</p>
-		<ul>
-			<li>Node.js</li>
-			<li>Java</li>
-		</ul>
-		<h3>Other Skills</h3>
-		<ul>
-			<li>Five years studying Spanish</li>
-			<li>Experience with Microsoft Office (Word, Excel, Powerpoint)</li>
-		</ul>
-	</section>
-	<section>
-		<h3>About This Site</h3>
-		<ul>
-			<li>Designed using custom stylesheet in SCSS</li>
-			<li>Code is available on <a href="https://github.com/ryanp73/ryanp73.github.io">Github</a></li>
-		</ul>
-	</section>
+    <div id="container">
+        <div class="section" id="first">
+            <h1>Ryan Pope</h1>
+            <h2>Computer Science Student</h2>
+            <h2>University of Kansas '21</h2>
+        </div>
+        <div class="section">
+            <h1 class="title">Education</h1>
+            <div class="subsection">
+                <h2 class="collapsible">University of Kansas (August 2017 - Present) <i class="material-icons expand">expand_more</i></h2>
+                <div class="collapsible-data hidden">
+                    <h3>Computer Science Major</h3>
+                    <h3>Expected Graduation: May 2021</h3>
+                    <h3>GPA: 4.00 / 4.00</h3>
+                    <div class="course-work">
+                        <h3 class="collapsible">Relevant Coursework <i class="material-icons expand">expand_more</i></h3>
+                        <div class="collapsible-data hidden">
+                            <p>EECS 140 - Digital Logic Design (Fall 2017)</p>
+                            <p>EECS 168 - Programming I (Spring 2018)</p>
+                            <p>EECS 210 - Discrete Structures (Fall 2018)</p>
+                            <p>EECS 268 - Programming II (Fall 2018)</p>
+                        </div>
+                    </div>
+                    <div class="extracur">
+                        <h3 class="collapsible">Extracurriculars <i class="material-icons expand">expand_more</i></h3>
+                        <div class="collapsible-data hidden">
+                            <p>Association for Computing Machinery (ACM) (2017-Present)</p>
+                            <ul>
+                                <li>Executive Board Member (2018-19)</li>
+                                <li>Tutor for EECS and Math courses (2018-19)</li>
+                                <li>Calculus II Practice Exam Coordinator (2018-19)</li>
+                            </ul>
+                            <p>KU Programming Club (2017-Present)</p>
+                            <ul>
+                                <li>Co-Chair (2018-19)</li>
+                                <li>Responsible for recruiting members, planning meeting topics, and organizing meeting time and locations</li>
+                            </ul>
+                            <p>hub() (2018-Present)</p>
+                            <ul>
+                                <li>Volunteer teaching students to code</li>
+                            </ul>
+                            <p>KU Men's Basketball Team (2017-Present)</p>
+                            <ul>
+                                <li>Volunteer Student Video Intern</li>
+                                <li>Utilize SportsCode software to tag game film for KU and future opponents</li>
+                                <li>Compile and organize the selected clips to create scouting videos for the team</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subsection">
+                <h2 class="collapsible">Blue Valley North High School (August 2013 - May 2017) <i class="material-icons expand">expand_more</i></h2>
+                <div class="collapsible-data hidden">
+                    <h3>GPA: 4.625/4.000</h3>
+                    <div class="extracur">
+                        <h3 class="collapsible">Extracurriculars <i class="material-icons expand">expand_more</i></h3>
+                        <div class="collapsible-data hidden">
+                            <p>FIRST Robotics Team (2013-2017)</p>
+                            <ul>
+                                <li>Team Captain (2016-2017)</li>
+                                <li>Lead Programmer (2016-17)</li>
+                                <li>Robot Drive Team (2016-17)</li>
+                                <li>Programming Team (2013-17)</li>
+                                <li>Led team to win Iowa Regional and qualify for world championships for first time in 5 years!</li>
+                            </ul>
+                            <p>Scholars Bowl Team (2015-17)</p>
+                            <ul>
+                                <li>Co-Captain (2016-17)</li>
+                                <li>Kansas High School trivia competition</li>
+                                <li>Won Regional Championships and qualified for state in 2017! We took 4th place at state!</li>
+                            </ul>
+                            <p>Categories Team (2015-17)</p>
+                            <ul>
+                                <li>Captain (2016-17)</li>
+                                <li>Johnson County televised team trivia competition</li>
+                                <li>Placed 3rd both years I participated</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h1 class="title">Experience</h1>
+            <div class="subsection">
+                <h2 class="collapsible">ShotTracker Inc. (May 2018-August 2018) <i class="material-icons expand">expand_more</i></h2>
+                <div class="collapsible-data hidden">
+                    <h3>Basketball Analytics and Video Intern</h3>
+                    <h3>Worked with the Data Science team to improve shot tracking algorithms</h3>
+                    <h3>Developed Python scripts to query data from AWS data stores and parse into Pandas DataFrame</h3>
+                    <h3>Processed DataFrame was used to train a recurrent neural network</h3>
+                </div>
+            </div>
+            <div class="subsection">
+                <h2 class="collapsible">KU Basketball Team (August 2017-Present) <i class="material-icons expand">expand_more</i></h2>
+                <div class="collapsible-data hidden">
+                    <h3>Volunteer Student Video Intern</h3>
+                    <h3>Use SportsCode software to tag game film for KU and future opponents</h3>
+                    <h3>Compile and organize the selected clips to create scouting videos for the team</h3>
+                </div>
+            </div>
+            <div class="subsection">
+                <h2>US Toy Cashier (Summer 2017, Winter Break 2017-18)</h2>
+            </div>
+        </div>
+        <div class="section">
+            <h1 class="title">Skills</h1>
+            <h2>Languages</h2>
+            <div class="skills">
+                <h3>Python</h3>
+                <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                </div>
+                <h3>HTML5/CSS3</h3>
+                <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                </div>
+                <h3>C++</h3>
+                <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_border</i>
+                </div>
+                <h3>JavaScript</h3>
+                <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_border</i>
+                </div>
+                <h3>SQL</h3>
+                <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                    <i class="material-icons">star_border</i>
+                </div>
+                <h3>Java</h3>
+                <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_border</i>
+                    <i class="material-icons">star_border</i>
+                </div>
+                <h3>SASS</h3>
+                <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                    <i class="material-icons">star_border</i>
+                    <i class="material-icons">star_border</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sticky-footer">
+        <div class="left" id="name">
+            <h2>Ryan Pope</h2>
+        </div>
+        <div class="links">
+            <h2><a href="https://www.linkedin.com/in/ryan-pope-b6363b15a">LinkedIn</a></h2>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
