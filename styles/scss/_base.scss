@@ -2,9 +2,13 @@
     box-sizing: border-box;
 }
 
-html, body {
+html, body, h1, h2, h3, p, div {
     margin: 0;
     padding: 0;
+}
+
+h1, h2, h3, p {
+    padding-bottom: 5px;
 }
 
 body {
@@ -20,6 +24,18 @@ body {
     height: 100vh;
 
     h1 {
-        font-size: 5rem;
+        font-size: calc(2.25 * #{$base-font-size});
+    }
+
+    h1#header {
+        font-size: calc(5 * #{$base-font-size});
+    }
+
+    h2 {
+        font-size: calc(1.75 * #{$base-font-size});
+    }
+
+    h3 {
+        font-size: calc(1.17 * #{$base-font-size});
     }
 }

@@ -1,9 +1,12 @@
 *, *::before, *::after {
   box-sizing: border-box; }
 
-html, body {
+html, body, h1, h2, h3, p, div {
   margin: 0;
   padding: 0; }
+
+h1, h2, h3, p {
+  padding-bottom: 5px; }
 
 body {
   background-color: #333;
@@ -18,4 +21,10 @@ body {
   width: 100vw;
   height: 100vh; }
   .container h1 {
-    font-size: 5rem; }
+    font-size: calc(2.25 * calc(1rem + 0.5vw)); }
+  .container h1#header {
+    font-size: calc(5 * calc(1rem + 0.5vw)); }
+  .container h2 {
+    font-size: calc(1.75 * calc(1rem + 0.5vw)); }
+  .container h3 {
+    font-size: calc(1.17 * calc(1rem + 0.5vw)); }
